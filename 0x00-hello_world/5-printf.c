@@ -5,6 +5,8 @@
  *
  * Return: Always 0 (success)
  *
+ * Description - This program displays a statement on a new line
+ *
  */
 int main(void)
 

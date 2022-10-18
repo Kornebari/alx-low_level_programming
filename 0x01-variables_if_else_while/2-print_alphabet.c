@@ -1,3 +1,4 @@
+#include <stdlib.h>
 #include <stdio.h>
 /**
  * main - Entry point
@@ -6,13 +7,13 @@
  */
 int main(void)
 {
-	char x = 'a';
-	while (x <= 'z')x;
+	char ch = 'a';
+	while (ch <= 'z')x;
 	{
-	putchar(x);
-	x++;
+	putchar(ch);
+	chx++;
 	putchar("\n");
 	}
-	return(0)
+	return(0);
 }
 

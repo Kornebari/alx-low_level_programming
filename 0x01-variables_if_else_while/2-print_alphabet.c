@@ -1,19 +1,19 @@
 #include <stdlib.h>
 #include <stdio.h>
+
 /**
  * main - Entry point
  *
- * Return: Always 0 
+ * Return: Always 0
  */
 int main(void)
 {
 	char ch = 'a';
-	while (ch <= 'z')x;
+	while (ch <= 'z')
 	{
-	putchar(ch);
-	chx++;
-	putchar("\n");
+	putchar("ch\n");
+	ch++;
 	}
-	return(0);
+	return (0);
 }
 

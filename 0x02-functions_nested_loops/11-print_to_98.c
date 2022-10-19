@@ -19,5 +19,11 @@ else
 		printf("%d, ", n++);
 	printf("\n");
 }
+	else if (n == 98)
+{
+	printf("%d");
+	printf("\n");
+}
+}
 }
 

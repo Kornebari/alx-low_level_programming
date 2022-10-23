@@ -4,7 +4,7 @@
  * largest_number - returns the largest of 3 numbers
  * @a: first number
  * @b: second munber
- * @c third number
+ * @c: third number
  * Return: largest number
  */
 

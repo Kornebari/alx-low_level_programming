@@ -1,34 +1,31 @@
-#include <stdlib.h>
 #include <stdio.h>
+#include <stdlib.h>
 #include <time.h>
 
 /**
- * main -Entry point
- *
- * Return: Always 0 (success)
- *
- * p stores the modolus of n
+ * main - function to generate a random number
+ * Return: Always 0 when successful
  */
-
 int main(void)
 {
 	int n;
-	int p;
+	int a;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	p = n % 10;
-	if (p > 5)
+	a = n % 10;
+
+	if (a > 5)
 	{
-		printf("The last digit of %d is %d and is greater than 5\n");
+		printf("Last digit of %d is %d and is greater than 5\n", n, a);
 	}
-			else if (p == 0)
-			{
-				printf("The last digit of %d is %d and is 0\n");
-			}
-	else if ((p < 6) && (p < 0))
+	else if (a == 0)
 	{
-		printf("The last digit of %d is %d and is less than 6 and not 0\n");
+		printf("Last digit of %d is %d and is 0\n", n, a);
+	}
+	else
+	{
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, a);
 	}
 	return (0);
 }
-

@@ -10,6 +10,7 @@ int main(void)
 
 	for (al = 'a'; al <= 'z'; al++)
 	{
+		while (al != 'e' && al != 'q')
 		putchar(al);
 	}
 	putchar('\n');

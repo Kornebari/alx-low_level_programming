@@ -3,7 +3,7 @@
 /**
  * _strpbrk - this function searches a string for any set of bytes
  * @s: first appearance in string
- * @accept: matches one of the bytes
+ * @accept: matches one of the bytes or @Null if no such byte
  * Return: a pointer to the byte
  */
 char *_strpbrk(char *s, char *accept)

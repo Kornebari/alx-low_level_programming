@@ -6,13 +6,13 @@
  * @b: nteger
  * Return: integer
  */
-int chack(int a, int b)
+int check(int a, int b)
 {
-	 if (a * a == b)
-		 return (a);
-	 if (a * a > b)
-		 return (-1);
-	 return (check(a + 1, b));
+if (a * a == b)
+return (a);
+if (a * a > b)
+return (-1);
+return (check(a + 1, b));
 }
 /**
  * _sqrt_recursion - returns the natural square root of a number
@@ -23,5 +23,5 @@ int _sqrt_recursion(int n)
 {
 	if (n == 0)
 		return (0);
-	return (check(1, n);
-			}
+	return (check(1, n));
+}

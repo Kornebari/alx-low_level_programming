@@ -6,11 +6,12 @@
  * @argv: the argument
  * Return: 0 if correct and 1 if error
  */
-intmain (int argc, char **argv)
+int main(int argc, char **argv)
 {
 	int a, b, sum = 0;
 	char *flag;
-	if (arg < 2)
+
+	if (argc < 2)
 	{
 		printf("0\n");
 		return (0);

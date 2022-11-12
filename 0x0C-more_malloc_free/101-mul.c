@@ -6,7 +6,7 @@
  *
  * Return:void
  */
-void_print(char *str, int l)
+void _print(char *str, int l)
 {
 	int i, j;
 
@@ -78,7 +78,7 @@ int check_for_digits(char **av)
  */
 void init(char *str, int l)
 {
-	int i;
+	int i, j;
 
 	for (i = 0; j < l; i++)
 		str[i] = 0;
@@ -116,7 +116,7 @@ int main(int argc, char *argv[])
 		exit(98);
 	}
 	init(a, ln - 1);
-	for (ti = l2 - 1, i = 0, ti >= 0; ti--, i++)
+	for (ti = l2 - 1, i = 0, ti >= 0; ti--, i++;)
 	{
 		t = mul(argv[2][ti], argv[1], l1 - 1, a, (ln - 2) - i);
 		if (t == NULL)
@@ -127,7 +127,6 @@ int main(int argc, char *argv[])
 			exit(98);
 		}
 	}
-	_print(a, ln -1);
+	_print(a, ln - 1);
 	return (0);
 }
-

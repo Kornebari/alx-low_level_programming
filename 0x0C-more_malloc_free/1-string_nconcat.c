@@ -10,7 +10,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	unsigned int x, y, z;
 		char *s;
-		
+
 		if (s1 == NULL)
 		{
 			x = 0;
@@ -26,7 +26,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		}
 		else
 		{
-			for (y = o; s2[y]; ++y)
+			for (y = 0; s2[y]; ++y)
 				;
 		}
 		if (y > n)

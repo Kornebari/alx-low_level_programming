@@ -5,6 +5,8 @@
  */
 int main(void)
 {
-	printf("%s\n", _FILE_);
+	char str_file[50];
+
+	printf("%s\n", file);
 	return (0);
 }

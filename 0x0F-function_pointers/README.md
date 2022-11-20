@@ -1,0 +1,1 @@
+Pointers are memory adressed and functions are group of statements that together perform a task. This directory contain functions that perform different tasks. Study them closely to differentiate the tasks each performs.
